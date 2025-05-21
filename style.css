@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 32px;
+}
+
+span {
+  color: black;
+}
+
+.container {
+  padding: 80px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #1a1a1a 50%, #f8f8f8 50%);
+}
+.header__row {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  align-items: center;
+}
+.header__img__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 768px;
+}
+
+.header__img {
+  border-radius: 999px;
+  width: 100%;
+  height: 100%;
+}
+
+.header__name {
+  font-size: 64px;
+  font-weight: 550;
+  word-spacing: 32px;
+}
+
+.header__occupation {
+  color: #d4a437;
+  font-size: 32px;
+}
+.header__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+.fa-solid {
+  color: #d4a437;
+  font-size: 16px;
+}
+.email {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.phone {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.header__social {
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* About Section */
+.about__wrapper__top__img {
+  width: 100%;
+}
+.about__top__img {
+  max-width: 600px;
+  max-height: 900px;
+}
+.container2 {
+  padding: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff8ee;
+}
+.about__row {
+  display: flex;
+  text-align: center;
+  gap: 50px;
+}
+.about__text {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.about__title {
+  font-size: 64px;
+  text-align: start;
+  padding-left: 50px;
+}
+.about__para {
+  font-size: 24px;
+  text-align: start;
+  padding-left: 50px;
+}
+.about__year {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 50px;
+}
+.about__year__text {
+  color: black;
+}
+
+.about__wrapper__img {
+  max-width: 100%;
+  padding-left: 62px;
+}
+
+.about__img__bottom {
+  max-width: 468px;
+  border-radius: 99px;
+}
+
+/* Education Section */
+.EDU__BG {
+  /* your styles here */
+  background-color: #f8f8f8;
+}
+
+.edu__img__wrapper {
+  width: 468px;
+}
+.edu__img {
+  width: 100%;
+}
+.edu__info__row {
+  display: flex;
+  gap: 68px;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.edu__sec {
+  display: flex;
+  flex-direction: column;
+  gap: 156px;
+  margin-top: 32px;
+}
+.cert {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.skills__text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title__edu,
+.fa-user-graduate,
+.fa-certificate,
+.fa-clipboard {
+  font-size: 32px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
