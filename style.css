@@ -34,7 +34,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 768px;
+  max-width: 400px;
 }
 
 .header__img {
@@ -47,6 +47,7 @@ span {
   font-size: 64px;
   font-weight: 550;
   word-spacing: 32px;
+  color: #a8a8a8;
 }
 
 .header__occupation {
@@ -230,6 +231,7 @@ span {
   height: 100px;
   width: 400px;
   resize: vertical;
+  max-width: 100%;
 }
 
 @media (max-width:1150px) {
@@ -306,7 +308,7 @@ span {
       padding: 0px;
     }
     .find__me__text{
-      margin-top: 12px;
+      margin-top: 24px;
     }
   }
   @media (max-width: 480px) {}
@@ -347,6 +349,14 @@ span {
       font-size: 32px;
     }
 }
+@media (max-width: 550px) {
+  .header__name{
+    font-size: 32px;
+  }
+  .find__me__message{
+    max-width: 90%;
+  }
+}
   @media (max-width: 410px) {
     
     .header__name {
@@ -374,6 +384,9 @@ span {
     .about__title, .about__para, .about__year{
       padding-left: 0px;      
     }
+    .header__name{
+      font-size: 16px;
+    }
   }
   @media (max-width: 390px) {
     .header__name {
@@ -400,8 +413,5 @@ span {
     }
     .about__title, .about__para, .about__year{
       padding-left: 0px;      
-    }
-    .header__name{
-      color: white;
     }
   }
