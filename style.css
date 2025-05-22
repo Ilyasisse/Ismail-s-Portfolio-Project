@@ -338,6 +338,7 @@ span {
     .find__me__inputs{
       padding-left: 0px;
       width: 100%;
+      align-items: center;
     }    
     .find__me__name, .find__me__email{
       width: 90%;
