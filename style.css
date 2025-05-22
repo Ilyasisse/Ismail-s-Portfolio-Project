@@ -164,7 +164,7 @@ span {
 .edu__sec {
   display: flex;
   flex-direction: column;
-  gap: 156px;
+  gap: 56px;
   margin-top: 32px;
 }
 .cert {
@@ -309,7 +309,7 @@ span {
       margin-top: 12px;
     }
   }
-  @media (max-width: 480px) {
+  @media (max-width: 480px) {}
     .header__name {
       font-size: 28px;
     }
@@ -343,8 +343,12 @@ span {
     .find__me__name, .find__me__email{
       width: 90%;
     }     
+    .fa-linkedin{
+      font-size: 32px;
+    }
 }
-  @media (max-width: 400px) {
+  @media (max-width: 410px) {
+    
     .header__name {
       font-size: 24px;
     }
@@ -371,7 +375,7 @@ span {
       padding-left: 0px;      
     }
   }
-  @media (max-width: 320px) {
+  @media (max-width: 390px) {
     .header__name {
       font-size: 20px;
     }
@@ -397,5 +401,7 @@ span {
     .about__title, .about__para, .about__year{
       padding-left: 0px;      
     }
+    .header__name{
+      color: white;
+    }
   }
-}
